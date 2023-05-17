@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <title> Contacto "El amigazo"</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+	</head>
+
+    <body>
+    	<header>
+    <div class="caja">
+    	<h1><img src="imagenes/amigazo.png"></h1>
+    	<nav>
+    		
+    	<ul> 
+    		<li><a href="index.html">Home</a></li>
+    		<li><a href="productos.html">Productos</a></li>
+    		<li><a href="contacto.html">Contacto</a></li>
+    	</ul>
+        </nav>
+    </div>
+    	</header>
+        <main>
+            
+<form>
+    <label for="nombreapellido"> Nombre y Apellido</label>
+    <input type="text" id="nombreapellido"class="input-padron" required>
+
+    <label for="correoelectronico"> Correo Electronico</label>
+    <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+    <label for="telefonazo"> Teléfonazo </label>
+    <input type="tel" id="telefonazo" class="input-padron" required placeholder="(00)000000">
+
+    <label for="mensaje">Mensaje</label>
+    <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+
+    <div>
+    <p>Como le gustaria que lo contactemos?</p>
+    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+   
+
+     <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfonazo</label>
+    
+     <label for="radio-whats"><input type="radio" name="contacto" value="whats" id="radio-whats"checked>Whatsapp</label>
+    
+    </div>
+    <p>En que horario prefieres venir Amigazo?</p>
+<select>
+    <option>Mañana</option>
+    <option>Tarde</option>
+
+</select> 
+    <label class="checkbox"><input type="checkbox">Le gustaria recibir novedades del Amigazo?</label>
+
+    <input type="submit" value="Confirmar cita" class="enviar">
+
+
+
+</form>
+<table>
+    <thead>
+    <tr>
+        <td>Dias</td>
+        <td>Horario</td>
+
+    </tr>
+</thead>
+<tbody>
+<tr><td>Lunes a viernes</td>
+    <td>De 9:00 a 18:00 hrs</td>
+</tr>
+<tr>
+    <td>Sábados</td>
+    <td>De 9:00 a 15:00hrs</td>
+</tr>
+</tbody>
+</table>
+
+        </main>
+        <footer>
+            <img src="imagenes/amigazo.png">
+            <p class= direccion>La Quebrada 212 Col Narvarte Poniente.
+            <p class=copyright>&copy Copyright Castillo web</p>
+
+        </footer>
