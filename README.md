@@ -1,0 +1,2 @@
+# amigazo
+pagina del amigazo
